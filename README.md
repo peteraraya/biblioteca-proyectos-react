@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+# Proyecto Base de React
+_Este proyecto base nos permitira crear una base con varias caracteristicas de esta libreria_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Comenzando 🚀
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+### Pre-requisitos 📋
 
-## Available Scripts
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-In the project directory, you can run:
+```
+npm install --global yarn
 
-### `npm start`
+Instalar Node version 16.13.0 o superior
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Instalación 
+_Para reconstruir los modulos de node utilizando yarn_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ Ejecute este comando
 
-### `npm test`
+```
+yarn
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+En el directorio del proyecto, puede ejecutar:
 
-### `npm run build`
+  ### `yarn start` 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  o también con
+  ### `npm run start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ejecuta la aplicación en el modo de desarrollo .\
+Puedes abrir [http://localhost:3000](http://localhost:3000) para visualizar en tu navegador.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+La página se recargará si realiza modificaciones..\
+También verá cualquier error de linter en la consola
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `yarn test`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Inicia el corredor de pruebas en el modo de watch interactivo.\
+Consulte la sección sobre [running tests](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `yarn build`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Crea la aplicación para la producción en el directorio `build` .\
+Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
-## Learn More
+La compilación se minimiza y los nombres de archivo incluyen los hash. \
+¡Tu aplicación está lista para implementarse!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Consulte la sección sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para más información.
+
+
+
+
+
+
+
+Este proyecto se inició con [Create React App](https://github.com/facebook/create-react-app).
+```
+npx create-react-app react-app template typescript
+```
+## Instalaciones 
+
+
+React Router-DOM 
+```
+yarn add react-router-dom
+```
+
+## Construido con 🛠️
+
+_Herramientas utilizadas_
+
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor
+
+## Versionado 📌
+  > 0.1.0  : Configuración de Rutas de la aplicación
+
+## Autores ✒️
+
+_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Pedro Araya** - *Trabajo Inicial y Documentación* - [peteraraya](https://github.com/peteraraya)
+
+
+## Leer Más
+
+Puedes aprender más en el[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+
+Para aprender React, consulte el [React documentation](https://reactjs.org/).
