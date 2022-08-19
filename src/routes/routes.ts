@@ -13,7 +13,7 @@ interface Route {
 }
 
 // Implementación de LazyLoad - debemos exportar los componentes por defecto
-const LazyLayout = lazy(() => import(/* webpackChunkName: "LazyLayout" */'../pages/LazyPages/Layout/LazyLayout'));
+const LazyLayout = lazy(() => import(/* webpackChunkName: "LazyLayout" */'../pages/ProyectosBasicos/Layout/ProyectosBasicosLayout'));
 
 
 // Definimos las rutas

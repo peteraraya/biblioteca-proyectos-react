@@ -10,7 +10,7 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 ```
 npm install --global yarn
 
-Instalar Node version 16.13.0 o superior
+Instalar Node version ^18.2.0 o superior
 ```
 
 ### Instalación 

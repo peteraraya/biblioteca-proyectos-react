@@ -21,12 +21,12 @@ code {
 }
 
 nav {
-  background-color: #363a45;
+  background-color: #02061f9f;
   height: 100vh;
   margin-right: 15px;
   overflow-y: auto;
   text-align: center;
-  width: 250px;
+  width: 280px;
 }
 nav ul {
   align-items: center;

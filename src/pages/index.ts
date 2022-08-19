@@ -1,5 +1,4 @@
-export { LazyPage1 } from './LazyPages/LazyPage1';
-export { LazyPage2 } from './LazyPages/LazyPage2';
-export { LazyPage3 } from './LazyPages/LazyPage3';
-export { NoLazy    } from './LazyPages/NoLazy';
+export { SimpleCrud } from './ProyectosBasicos/01-SimpleCrud/SimpleCrud';
+export { CounterApp } from './ProyectosBasicos/02-CounterApp/CounterApp';
+export { NoLazy    } from './ProyectosBasicos/NoLazy';
 
