@@ -12,7 +12,7 @@ export const Message = () => {
         // Precaución para evitar multiples listener
         const mouseMove = (e: any) => {
             const coords = { x: e.x, y: e.y };
-            console.log(coords)
+            // console.log(coords)
             setCoords(coords);
         }
 

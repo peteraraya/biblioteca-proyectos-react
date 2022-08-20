@@ -1,11 +1,6 @@
 import { useState } from 'react';
 
-interface PropsState {
-    name?: string;
-    email?: string;
-    password?: string;
-}
-export const useForm = (initialState: PropsState) => {
+export const useForm = <T>(initialState: T) => {
 
     // menejar el estado de nuestro formulario
     const [values, setValues] = useState(initialState);
@@ -17,11 +12,11 @@ export const useForm = (initialState: PropsState) => {
     }
 
 
-    const handleInputChange = ({ target }:any) => {
-        setValues({
-            ...values,
-            [target.name]: target.value
-        });
+    const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setValues(prev => ({
+            ...prev,
+            [event.target.name]: event.target.value,
+        }));
     }
 
 

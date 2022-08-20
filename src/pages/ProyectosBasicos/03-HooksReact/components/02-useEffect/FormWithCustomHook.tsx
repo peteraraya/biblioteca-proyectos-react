@@ -38,7 +38,8 @@ export const FormWithCustomHook = () => {
                     placeholder="Tu nombre"
                     autoComplete="off"
                     value={name}
-                    onChange={() => handleInputChange}
+                    //@ts-ignore
+                    onChange={handleInputChange}
                 />
             </div>
 
@@ -50,7 +51,8 @@ export const FormWithCustomHook = () => {
                     placeholder="email@gmail.com"
                     autoComplete="off"
                     value={email}
-                    onChange={() => handleInputChange}
+                    //@ts-ignore
+                    onChange={handleInputChange}
                 />
             </div>
 
@@ -61,7 +63,8 @@ export const FormWithCustomHook = () => {
                     className="form-control"
                     placeholder="*******"
                     value={password}
-                    onChange={() => handleInputChange}
+                    //@ts-ignore
+                    onChange={handleInputChange}
                 />
             </div>
 
