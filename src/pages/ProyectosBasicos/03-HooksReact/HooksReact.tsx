@@ -1,11 +1,19 @@
-import { CounterApp, CounterWithCustomHook, FormWithCustomHook, Message, SimpleForm } from "./components"
+import useMemo from 'react';
+import {
+  CounterApp,
+  CounterWithCustomHook,
+  FocusScreen,
+  FormWithCustomHook,
+  MemoHook,
+  Memorize,
+  Message,
+  SimpleForm,
+} from "./components"
 
 export const HooksReact = () => {
   return (
     <>
-      <hr />
-      <h3>01-useState</h3>
-      <hr />
+      <h3 className="text-center bg-dark p-2 mb-1 mt-2 ">01-useState</h3>
       <div className="row">
       <div className="col-6">
         <h4>Counter App 1</h4>
@@ -16,9 +24,7 @@ export const HooksReact = () => {
           <CounterWithCustomHook />
           </div>
       </div>
-      <hr />
-      <h3>02-useEffect</h3>
-      <hr />
+      <h3 className="text-center bg-dark p-2 mb-1 mt-2">02-useEffect</h3>
       <div className="row">
         <div className="col-4">
           <Message />
@@ -28,6 +34,21 @@ export const HooksReact = () => {
         </div>
         <div className="col-4">
           <FormWithCustomHook />
+        </div>
+      </div>
+      <h3 className="text-center bg-dark p-2 mb-1 mt-2">03-useRef</h3>
+      <div className="row">
+        <div className="col-6">
+          <FocusScreen />
+        </div>
+      </div>
+      <h3 className="text-center bg-dark p-2 mb-1 mt-2">04-useMemo</h3>
+      <div className="row">
+        <div className="col-3">
+         <MemoHook />
+        </div>
+        <div className="col-3">
+          <Memorize />
         </div>
       </div>
     </>

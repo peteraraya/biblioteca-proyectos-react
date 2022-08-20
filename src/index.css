@@ -23,7 +23,7 @@ code {
 
 nav {
   background-color: #02061f9f;
-  height: 100vh;
+  min-height: 100vh;
   margin-right: 15px;
   overflow-y: auto;
   text-align: center;

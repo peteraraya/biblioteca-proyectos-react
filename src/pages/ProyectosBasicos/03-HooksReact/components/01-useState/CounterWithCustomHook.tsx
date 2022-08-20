@@ -1,8 +1,5 @@
 
-
-
 import { useCounter } from '../../hooks';
-import './counter.css';
 
 export const CounterWithCustomHook = () => {
 

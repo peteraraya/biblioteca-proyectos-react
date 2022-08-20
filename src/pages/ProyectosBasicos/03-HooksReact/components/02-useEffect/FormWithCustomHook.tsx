@@ -1,8 +1,6 @@
 import { useEffect } from 'react';
 import { useForm } from '../../hooks';
 
-import './effects.css';
-
 export const FormWithCustomHook = () => {
 
     const [formValues, handleInputChange] = useForm({
@@ -15,7 +13,7 @@ export const FormWithCustomHook = () => {
     const { name, email, password } = formValues;
 
     useEffect(() => {
-        console.log('email cambio');
+        // console.log('email cambio');
 
     }, [email]);
 

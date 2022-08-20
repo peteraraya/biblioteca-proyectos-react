@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-export const useFetch = (url: any) => {
+export const useFetch = (url:string) => {
 
     // por defecto cuando este se llama el componente, efectivamente está montado
     const isMounted = useRef(true);
@@ -25,7 +25,7 @@ export const useFetch = (url: any) => {
         fetch(url)
             .then(resp => resp.json())
             .then(data => {
-
+                console.log('data :>>>', data);
                 // Prevenimos comportamiento del demontado con el state
                 if (isMounted.current) {
                     // Todavia está montado    
