@@ -27,16 +27,16 @@ export const useFetch = (url:string) => {
             .then(data => {
                 console.log('data :>>>', data);
                 // Prevenimos comportamiento del demontado con el state
-                if (isMounted.current) {
+                // if (isMounted.current) {
                     // Todavia está montado    
                     setstate({
                         loading: false,
                         error: '',
                         data
                     })
-                } else {
-                    console.log('setState no se llamó')
-                }
+                // } else {
+                //     console.log('setState no se llamó')
+                // }
 
             })
             .catch(()=>{

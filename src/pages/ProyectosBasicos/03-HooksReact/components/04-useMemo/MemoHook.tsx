@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
-import { useCounter } from '../../hooks/useCounter';
+import { useCounter } from '../../../../../hooks';
+
 import { procesoPesado } from '../../helpers/procesoPesado';
 
 export const MemoHook = () => {

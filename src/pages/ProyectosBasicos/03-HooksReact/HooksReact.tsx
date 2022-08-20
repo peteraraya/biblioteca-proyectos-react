@@ -1,4 +1,4 @@
-import useMemo from 'react';
+
 import {
   CounterApp,
   CounterWithCustomHook,
@@ -44,10 +44,10 @@ export const HooksReact = () => {
       </div>
       <h3 className="text-center bg-dark p-2 mb-1 mt-2">04-useMemo</h3>
       <div className="row">
-        <div className="col-3">
+        <div className="col-6">
          <MemoHook />
         </div>
-        <div className="col-3">
+        <div className="col-6">
           <Memorize />
         </div>
       </div>
