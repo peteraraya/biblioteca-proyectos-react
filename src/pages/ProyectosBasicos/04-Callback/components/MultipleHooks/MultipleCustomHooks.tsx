@@ -1,4 +1,4 @@
-import { useCounter, useFetch } from "../../../../hooks";
+import { useCounter, useFetch } from "../../../../../hooks";
 
 export const MultipleCustomHooks = () => {
 

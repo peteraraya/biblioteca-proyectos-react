@@ -7,6 +7,7 @@ import {
   MemoHook,
   Memorize,
   Message,
+  RealExampleRef,
   SimpleForm,
 } from "./components"
 
@@ -40,6 +41,9 @@ export const HooksReact = () => {
       <div className="row">
         <div className="col-6">
           <FocusScreen />
+        </div>
+        <div className="col-6">
+          <RealExampleRef />
         </div>
       </div>
       <h3 className="text-center bg-dark p-2 mb-1 mt-2">04-useMemo</h3>

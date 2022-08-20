@@ -1,2 +1,2 @@
-export { MultipleCustomHooks } from '../MultipleHooks/MultipleCustomHooks';
+export { MultipleCustomHooks } from './MultipleHooks/MultipleCustomHooks';
 
