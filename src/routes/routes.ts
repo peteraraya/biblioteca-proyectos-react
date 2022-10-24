@@ -13,16 +13,23 @@ interface Route {
 }
 
 // Implementación de LazyLoad - debemos exportar los componentes por defecto
-const LazyLayout = lazy(() => import(/* webpackChunkName: "LazyLayout" */'../pages/ProyectosBasicos/Layout/ProyectosBasicosLayout'));
+const LazyLayoutProyectosBasicos = lazy(() => import(/* webpackChunkName: "LazyLayout" */'../pages/ProyectosBasicos/Layout/ProyectosBasicosLayout'));
+const LazyLayoutClases = lazy(() => import(/* webpackChunkName: "LazyLayout" */'../pages/ComponentesClases/Layout/ComponentesClasesLayout'));
 
 
 // Definimos las rutas
 export const routes: Route[] = [
   {
+    path: '/componentes-clases/*',
+    to: '/componentes-clases/',
+    Component: LazyLayoutClases,
+    name: 'Componente de Clases',
+  },
+  {
     path: '/proyectos-basicos/*',
     to: '/proyectos-basicos/',
-    Component: LazyLayout,
-    name: 'Proyectos Basicos - React',
+    Component: LazyLayoutProyectosBasicos,
+    name: 'Proyectos Basicos',
   },
 
   {

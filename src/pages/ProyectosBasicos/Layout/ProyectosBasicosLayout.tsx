@@ -3,7 +3,7 @@ import { SimpleCrud, CounterApp, HooksReact, CallBackExamples, Examples } from '
 import UseReducer from '../05-UseReducer/UseReducer';
 
 
-export const LazyLayout = () => {
+export const LazyLayoutProyectosBasicos = () => {
   return (
     <div className="container-fluid p-5">
       <h1>Ejemplos Pedro Araya Gálvez</h1>
@@ -46,4 +46,4 @@ export const LazyLayout = () => {
   );
 };
 
-export default LazyLayout;
+export default LazyLayoutProyectosBasicos;
