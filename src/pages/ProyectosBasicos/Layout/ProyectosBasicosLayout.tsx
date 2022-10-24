@@ -1,5 +1,6 @@
 import { Navigate, NavLink, Route, Routes } from 'react-router-dom';
-import { SimpleCrud, CounterApp, HooksReact, CallBackExamples } from '../..';
+import { SimpleCrud, CounterApp, HooksReact, CallBackExamples, Examples } from '../..';
+import UseReducer from '../05-UseReducer/UseReducer';
 
 
 export const LazyLayout = () => {
@@ -21,13 +22,21 @@ export const LazyLayout = () => {
         <li className="nav-item">
           <NavLink to="callback-examples" className="nav-link">04 - Callback</NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink to="use-reducer" className="nav-link">05 - Use Reducer</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="examples" className="nav-link">06 - Ejemplos</NavLink>
+        </li>
       </ul>
 
       <Routes>
-        <Route path="simple-crud" element={<SimpleCrud />} />
-        <Route path="counter-app" element={<CounterApp value={10} />} />
-        <Route path="hooks-react" element={<HooksReact />} />
+        <Route path="simple-crud"       element={<SimpleCrud />} />
+        <Route path="counter-app"       element={<CounterApp value={10} />} />
+        <Route path="hooks-react"       element={<HooksReact />} />
         <Route path="callback-examples" element={<CallBackExamples />} />
+        <Route path="use-reducer"          element={<UseReducer />} />
+        <Route path="examples"          element={<Examples />} />
 
         <Route path="*" element={<Navigate to="simple-crud" replace />} />
       </Routes>

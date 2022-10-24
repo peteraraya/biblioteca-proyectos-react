@@ -1,0 +1,25 @@
+
+[
+    {
+      "title": "¿Qué es un componente en React?",
+      "description": "Un componente es una pieza de código encapsulada que se puede reutilizar en diferentes partes de una aplicación. La cual puede tener un estado o no",
+      "tips":[
+        {
+          "desc":"Deben llevar nombres en formato CamelCase"
+        }
+      ]
+    },
+    {
+      "title": "¿Qué es un estado?",
+      "description": "Es como se encuentra la información del componente en un punto determinado del tiempo ",
+        "tips": [
+          {
+            "desc": "Cuando un componente es renderizdo la primera vez tiene un estado inicial"
+          }
+        ]
+    }
+
+
+
+
+]
