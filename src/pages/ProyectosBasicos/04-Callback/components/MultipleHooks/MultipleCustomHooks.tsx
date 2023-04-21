@@ -14,7 +14,8 @@ export const MultipleCustomHooks = () => {
 
     return (
         <div className="p-2">
-            <h4>BreakingBas Quotes !!!!!</h4>
+            <h2>Multiple Hooks</h2>
+            <h4>Breaking Bad Quotes !!!!!</h4>
             <hr />
 
             {

@@ -1,0 +1,2 @@
+export { Padre } from "./Padre";
+

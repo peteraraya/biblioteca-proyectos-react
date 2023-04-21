@@ -1,4 +1,5 @@
-import { MultipleCustomHooks } from "./components"
+import { LayoutEffect, MultipleCustomHooks } from "./components"
+
 
 
 export const CallBackExamples = () => {
@@ -8,6 +9,9 @@ export const CallBackExamples = () => {
       <div className="row">
         <div className="col-6">
           <MultipleCustomHooks />
+        </div>
+        <div className="col-6">
+          <LayoutEffect />
         </div>
       </div>
     </>

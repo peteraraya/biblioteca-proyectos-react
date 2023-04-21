@@ -1,0 +1,36 @@
+
+  State : podemos acceder directamente a los componentes creados con clases
+          en cambio en los componentes funcionales se utiliza estados pero utilizando hooks
+  
+   react necesita que el estado de un componente siempre se llame state
+  
+  siempre debeos extender de Component
+  
+  
+  El metodo de render se ejecuta siempre con dos condiciones 
+     1) el estado del componente haya cambiado( por ejemeplo llamando a setState )
+     2) es cuando el metodo render padre haya sido llamado
+  
+  
+    Cuando se renderiza un componente 
+     1 cuando llamamos un setState y actualiza solo un componente a la vez
+     2 cuando un componente hijo de otro componente se ejecuta en el componente del padre
+  
+   En el constructor siempre utilizaremos super y le pasamos las props, ya que este hace referencia al componente que estamos extendiendo
+   ya que estamos editando el componente
+     1El constructor es la instancia para que nosotros podamos setear un estado
+  
+   componentDidMount : no recibe ningun elemento
+                       se utiliza mas que nada cuando tenenmos que llamar setState para poder actualizar el estado del componente
+  
+   componentDidUpdate : recibe dos argumentos
+                        las propiedades anteriores y el estado anterior
+                        solo se ejecuta cuando nosotros actualizamos nuestro componente
+  
+   componentWillUnmount : no recibe ningun argumento 
+                          va a desmonstar el componente que ya no estemos utilizando a diferencia de utilizar hidden que solo oculta 
+                       
+   Uno de los problemas mas comunes al programar en react es donde debemos ejecutar los estados de la aplicación 
+  
+   Subiendo el estado
+   No dejar que un compoente padre controle el estado
